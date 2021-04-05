@@ -1744,6 +1744,11 @@ input, select, textarea {
 
 /* Sections/Article */
 
+	#section{
+		margin-top: 2em;
+		padding: 6em 0 6em 0;
+	}
+
 	section, article {
 		margin-bottom: 3em;
 	}
@@ -1777,6 +1782,11 @@ input, select, textarea {
 	}
 
 /* Image */
+
+	#img {
+		margin-top: 2em;
+		padding: 6em 0 6em 0;
+	}
 
 	.image {
 		position: relative;
@@ -2445,7 +2455,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-bottom: 0;
+		margin-top: 2em;
+		padding: 6em 0 6em 0;
 	}
 
 		#main section:first-of-type {

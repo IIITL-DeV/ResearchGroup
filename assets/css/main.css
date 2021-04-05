@@ -2473,10 +2473,6 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
-		margin-top: 2em;
-		padding: 6em 0 6em 0;
-	}
 
 		#main section:first-of-type {
 			padding-top: 2em;

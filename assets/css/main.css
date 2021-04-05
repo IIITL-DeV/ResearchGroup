@@ -2303,6 +2303,9 @@ input, select, textarea {
 		cursor: pointer;
 		background-color: blue;
 	}
+	#nav2 > ul >li:active {
+		background-color: blue;
+	}
 /* Nav */
 
 	#nav {

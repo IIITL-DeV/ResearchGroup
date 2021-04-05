@@ -2284,7 +2284,25 @@ input, select, textarea {
 	body.homepage.is-preload #header:after {
 		opacity: 1;
 	}
+/*  Nav 2*/
 
+	#nav2 {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		margin-top: 4em;
+	}
+
+	#nav2 > ul >li {
+		float: left;
+		display: inline;
+		margin-right: 1em;
+		padding: 1em;
+	}
+	#nav2 > ul >li:hover {
+		cursor: pointer;
+		background-color: blue;
+	}
 /* Nav */
 
 	#nav {

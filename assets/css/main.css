@@ -2478,6 +2478,20 @@ input, select, textarea {
 			padding-top: 2em;
 		}
 
+/* Map */
+
+.map {
+	width: 600px;
+	height: 450px;
+	border: 0;
+	padding: 1em;
+}
+
+@media screen and (max-width: 700px) {
+	.map {
+		width: 100%;
+	}
+}
 /* Footer */
 
 	#footer {

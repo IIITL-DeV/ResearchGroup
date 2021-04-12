@@ -71,7 +71,6 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
 /* Basic */
 
 	html {
@@ -263,7 +262,6 @@ input, select, textarea {
 			.container {
 				width: 100%;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2477,6 +2475,7 @@ input, select, textarea {
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
+/* Publications*/
 
 /* Map */
 
@@ -2819,6 +2818,10 @@ input, select, textarea {
 
 			header > p {
 				font-size: 1.25em;
+			}
+
+			#header #resolve {
+				margin: 0;
 			}
 
 		/* Image */
@@ -3174,3 +3177,9 @@ input, select, textarea {
 					}
 
 	}
+
+@media screen and (min-width: 737px) and (max-width:893px) {
+	#header #resolve {
+		margin: -47em 0 0 0;
+	}
+}

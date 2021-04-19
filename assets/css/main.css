@@ -71,6 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+#main {
+	padding: 4em;
+}
 /* Basic */
 
 	html {

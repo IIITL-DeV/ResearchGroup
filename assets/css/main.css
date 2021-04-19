@@ -74,6 +74,9 @@ input, select, textarea {
 #main {
 	padding: 4em;
 }
+#main2 {
+	margin-top: 10em;
+}
 /* Basic */
 
 	html {
@@ -2475,7 +2478,7 @@ input, select, textarea {
 /* Main */
 
 
-		#main section:first-of-type {
+		#main2 section:first-of-type {
 			padding-top: 2em;
 		}
 /* Publications*/
@@ -3148,7 +3151,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > header {
+			#main2 > header {
 				text-align: center;
 			}
 

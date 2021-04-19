@@ -2285,10 +2285,10 @@ input, select, textarea {
 /*  Nav 2*/
 
 	#nav2 {
-		position: relative;
+		position: absolute;
 		width: 100%;
 		text-align: center;
-		margin-top: 4em;
+		margin-top: 2em;
 	}
 
 	#nav2 > ul >li {
@@ -2299,10 +2299,10 @@ input, select, textarea {
 	}
 	#nav2 > ul >li:hover {
 		cursor: pointer;
-		background-color: blue;
+		
 	}
 	#nav2 > ul >li:active {
-		background-color: blue;
+		
 	}
 /* Nav */
 

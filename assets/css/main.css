@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 #main {
-	margin-top: 10em;
+	padding: 4em;
 }
 /* Basic */
 

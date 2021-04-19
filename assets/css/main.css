@@ -71,9 +71,6 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-#main {
-	margin-top: 10em;
-}
 /* Basic */
 
 	html {

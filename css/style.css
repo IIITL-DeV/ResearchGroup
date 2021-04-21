@@ -409,6 +409,11 @@ p a:hover {
 	width: 290px;
 	padding-right: 18px;
 }
+.pub {
+	color: rgb(88, 87, 87);
+	font-size: 8;
+}
+
 .sidebar > div {
 	margin: 0 0 30px;
 }
@@ -558,7 +563,7 @@ p a:hover {
 	border-top: 2px solid #fff;
 }
 #footer .section {
-	float: left;
+	float: right;
 	min-height: 146px;
 	width: 259px;
 	border-left: 1px solid #c2c2c2;

@@ -132,6 +132,13 @@ img {
 	float: left;
 	display: inline-block;
 }
+.reser {
+	
+}
+.reser li.active > a, .navigation li > a:hover {
+	color: rgb(14, 13, 13);
+	text-decoration: underline;
+}
 /** navigation **/
 .navigation {
 	float: right;

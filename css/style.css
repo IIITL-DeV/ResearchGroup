@@ -230,7 +230,7 @@ p a:hover {
 }
 #adbox > div {
 	background-color: #e9e9e9;
-	width: 958px;
+	width: 838px;
 	border: 1px solid #fff;
 	margin: 0 auto;
 	position: relative;
@@ -240,13 +240,13 @@ p a:hover {
 }
 #adbox .detail {
 	font-family: Times, "Times New Roman", serif;
-	height: 185px;
+	height: 385px;
 	line-height: 48px;
 	width: 308px;
-	text-align: center;
+	text-align: justify;
 	position: absolute;
-	left: 54px;
-	top: 90px;
+	left: 14px;
+	top: 50px;
 }
 #adbox .detail h1 {
 	color: #4e5944;
@@ -257,8 +257,8 @@ p a:hover {
 	text-transform: none;
 }
 #adbox .detail p {
-	color: #4e5944;
-	font: 25px/48px "Times New Roman", Times, serif;
+	color: rgb(88, 87, 87);
+	font: 16px/16px "Times New Roman", Times, serif;
 	margin: 0;
 }
 .highlight {

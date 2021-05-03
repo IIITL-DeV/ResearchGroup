@@ -44,7 +44,7 @@ img {
 .phone, .mail, .home, .fax, #footnote .connect a {
 	background: url(../images/icons.png) no-repeat;
 }
-.frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
+.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .news > li {
 	background: url(../images/frames.png) no-repeat;
 }
 .more, .subscribe, input[type='submit'] {
@@ -122,9 +122,17 @@ img {
 	padding: 7px 6px 0;
 	text-align: center;
 }
+.frame6 {
+	background-position: -610px -238px;
+	height: 220px;
+	width: 190px;
+	padding: 7px 6px 0;
+	text-align: center;
+}
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	/* background:     #4e5944 url(../images/bg-header.jpg) repeat-x left bottom; */
+	background: #052137;
 	padding: 40px 0 46px;
 }
 /** logo **/
@@ -136,7 +144,7 @@ img {
 	
 }
 .reser li.active > a, .navigation li > a:hover {
-	color: rgb(14, 13, 13);
+	color: #f9ca78;
 	text-decoration: underline;
 }
 /** navigation **/
@@ -152,7 +160,7 @@ img {
 	position: relative;
 }
 .navigation li > a {
-	color: #b8c6ac;
+	color: #ffffff;
 	font: bold 13px/24px Times, "Times New Roman", serif;
 	text-decoration: none;
 	text-shadow: 1px 1px #000;
@@ -160,11 +168,11 @@ img {
 	text-decoration: underline;
 }
 .navigation li.active > a, .navigation li > a:hover {
-	color: #fff;
+	color: #f9ca78;
 	text-decoration: underline;
 }
 .navigation li > div {
-	background-color: #888888;
+	background-color: #052137;
 	display: none;
 	width: 110px;
 	position: absolute;
@@ -175,7 +183,7 @@ img {
 	display: block;
 }
 .navigation li > div a {
-	color: #b8c6ac;
+	color: #052137;
 	font: bold 13px/24px "Times New Roman", Times, serif;
 	display: block;
 	text-align: center;
@@ -190,6 +198,7 @@ img {
 /*------------ CONTENTS ------------*/
 #contents {
 	padding-bottom: 24px;
+	background: #fefbf6;
 }
 #contents > div.clearfix:first-child {
 	width: 940px;
@@ -199,25 +208,25 @@ img {
 	border: 1px solid rgba(231, 231, 231, 0.8);
 }
 h1 {
-	color: #57614e;
+	color: #052137;
 	font: 29px/30px "Times New Roman", Times, serif;
 	margin: 0 0 12px;
 	text-transform: uppercase;
 }
 h2 {
-	color: #626262;
+	color: #052137;
 	font: 19px/24px "Times New Roman", Times, serif;
 	letter-spacing: 2px;
 	margin: 0;
 	text-transform: uppercase;
 }
 p {
-	color: #626262;
+	color: #052137;
 	font: 14px/24px Arial, Helvetica, sans-serif;
 	margin: 0 0 24px;
 }
 p a {
-	color: #626262;
+	color: #052137;
 }
 p a:hover {
 	color: #333333;
@@ -249,7 +258,7 @@ p a:hover {
 	top: 50px;
 }
 #adbox .detail h1 {
-	color: #4e5944;
+	color: #052137;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 48px;
@@ -257,12 +266,12 @@ p a:hover {
 	text-transform: none;
 }
 #adbox .detail p {
-	color: rgb(88, 87, 87);
+	color: #052137;
 	font: 16px/16px "Times New Roman", Times, serif;
 	margin: 0;
 }
 .highlight {
-	background: #eee url(../images/bg-highlight.jpg) repeat-x left bottom;
+	background: #fefbf6 url(../images/bg-highlight.jpg) repeat-x left bottom;
 	border-bottom: 1px solid #fff;
 }
 .highlight .clearfix {
@@ -275,7 +284,7 @@ p a:hover {
 	text-transform: none;
 }
 .highlight h2 {
-	color: #57614e;
+	color: #052137;
 	margin-bottom: 24px;
 }
 .testimonial, .main, .sidebar > div h2, .sidebar ul li, .main > .section {
@@ -299,7 +308,7 @@ p a:hover {
 	padding: 30px 0;
 }
 .featured > h2 {
-	color: #728063;
+	color: #052137;
 	width: 940px;
 	margin: 0 auto 24px;
 	padding: 0 10px;
@@ -406,11 +415,11 @@ p a:hover {
 }
 .sidebar {
 	float: left;
-	width: 290px;
+	width: 190px;
 	padding-right: 18px;
 }
 .pub {
-	color: rgb(88, 87, 87);
+	color: #052137;
 	font-size: 8;
 }
 
@@ -446,7 +455,7 @@ p a:hover {
 	background-repeat: repeat-x;
 	display: inline-block;
 	min-height: 36px;
-	width: 280px;
+	width: 180px;
 	padding: 6px 0 10px 10px;
 }
 .sidebar ul li > a span.box {
@@ -454,12 +463,12 @@ p a:hover {
 	margin-right: 20px;
 }
 .sidebar ul li a {
-	color: #755c02;
+	color: #052137;
 	font: 13px/24px Arial, Helvetica, sans-serif;
 	text-decoration: none;
 }
 .sidebar ul li a:hover {
-	color: #728063;
+	color: #f9ca78;
 }
 .sidebar ul li img.box {
 	float: left;
@@ -508,10 +517,10 @@ p a:hover {
 	padding-top: 24px;
 }
 .author {
-	color: #755c02;
+	color: #052137;
 }
 .news > li h2, .details h2 {
-	color: #728063;
+	color: #052137;
 	letter-spacing: 0;
 	margin-bottom: 24px;
 }
@@ -535,7 +544,7 @@ p a:hover {
 	padding-top: 0;
 }
 .message label {
-	color: #626262;
+	color: #052137;
 	display: block;
 	font: 13px/24px Arial, Helvetica, sans-serif;
 }
@@ -570,7 +579,7 @@ p a:hover {
 	padding: 30px;
 }
 #footer .section h4 {
-	color: #626262;
+	color: #052137;
 	font: bold 12px/24px Arial, Helvetica, sans-serif;
 	margin: 0;
 	text-transform: uppercase;
@@ -586,7 +595,8 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote {
-	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	/* background: url(../images/bg-footnote.jpg) repeat-x left top; */
+	background: #052137;
 	border-top: 1px solid #fff;
 	padding: 6px 0 3px;
 }

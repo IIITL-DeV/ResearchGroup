@@ -34,19 +34,27 @@
 .navbar-toggler-icon {
   font-size: 1.2rem;
 }
-@media (max-width: 1000px) {
-  .navbar-nav.nav-link {
+@media (max-width: 1200px) {
+  .nav-link {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 700px) {
+  .nav-link {
     font-size: 2.3vw;
   }
 }
-@media (max-width: 1200px) {
-  .navbar-nav {
-    font-size: 2.3vw !important;
+@media (max-width: 450px) {
+  .nav-link {
+    font-size: 4vw;
   }
-  .navbar-nav.nav-link {
-    font-size: 2.3vw !important;
+  .navbar-text {
+    font-size: 2rem;
+  }
+  .navbar {
   }
 }
+
 .brand {
   display: flex;
 }

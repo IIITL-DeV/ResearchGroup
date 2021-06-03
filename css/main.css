@@ -3946,7 +3946,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   /* padding-top: 0.5rem; */
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -5113,6 +5113,9 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #842029;
   border-color: #842029;
+}
+.list-group-item.list-group-item-action.list-group-item-light.p-3.a{
+  color: white;
 }
 
 .list-group-item-light {
@@ -10967,4 +10970,29 @@ color: #999;
 footer.nb-footer .copyright p {
 margin: 0;
 padding: 0;
+}
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
 }

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+
+* {
+  font-family: "Old Standard TT", serif;
+
+}
+:root{
+    --navtxtcolor : white;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+.navbar-text {
+  word-wrap: break-word;
+  vertical-align: bottom;
+  display: flex;
+  font-size: 2vw !important;
+  color: var(--navtxtcolor) !important;
+
+}
+.navbar-nav {
+  margin-left: auto;
+  font-size: 1.3vw !important;
+}
+.navbar-nav.nav-link{
+    font-size: 1vw !important;
+}
+.navbar-toggler-icon{
+    color: var(--navtxtcolor) !important;
+}
+.navbar-brand img {
+  max-width: 8vw;
+  max-height: 8vw;
+  min-height: auto;
+  min-width: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.nav-link{
+    color: var(--navtxtcolor) !important;
+}
+.navbar-toggler-icon{
+    font-size: 1.8em;
+}
+@media (max-width : 1000px){
+    .navbar-text{
+        font-size: 1.5vw !important;
+    }
+    .navbar-nav.nav-link{
+        font-size: 1.2vw;
+    }
+}
+@media (max-width : 1200px){
+    .navbar-nav {
+        font-size: 1.8vw !important;
+      }
+      .navbar-nav.nav-link{
+        font-size: 1.8vw !important;
+    }
+}

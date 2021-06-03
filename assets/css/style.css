@@ -13,7 +13,7 @@
 }
 .navbar-text {
   vertical-align: bottom;
-  font-size: 1rem !important;
+  font-size: 1.3rem !important;
 }
 .navbar-brand img {
   height: 8vh;
@@ -51,8 +51,6 @@
   .navbar-text {
     font-size: 2rem;
   }
-  .navbar {
-  }
 }
 
 .brand {
@@ -73,6 +71,18 @@
 .brand a:visited {
   color: #fff;
   text-decoration: none;
+}
+.column_left {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+}
+.column_right {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 300px;
 }
 footer {
   bottom: 0;

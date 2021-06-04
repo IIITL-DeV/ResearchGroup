@@ -32,9 +32,9 @@
 *::after {
   box-sizing: border-box;
 }
-*+*{
+/* *+*{
   padding-top: 0;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -10981,3 +10981,20 @@ padding: 0;
   position:absolute;
 
 }
+
+.schol_1
+{
+  box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+  width: 46%;
+  
+  margin-top: 5rem;
+  
+}
+.schol_2
+{
+  box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+  width: 46%;
+  margin-top: 5rem;
+  
+}
+

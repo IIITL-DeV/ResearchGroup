@@ -10995,7 +10995,7 @@ padding: 0;
   overflow: hidden;
   margin: 50px 0 75px;
   width: 100%;
-  height: 50vh;
+  height: 40vw;
   color: wheat;
   font-family: 'Zilla Slab Highlight', cursive;
 }
@@ -11018,8 +11018,8 @@ padding: 0;
 }
 
 .slideshowArrow {
-  font-size: 7em;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
 }
@@ -11064,6 +11064,21 @@ padding: 0;
 .dot {
   background-color: rgba(255, 255, 255, 0.7);
   border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 768px){
+  .page-content-container{
+    width: 80%;
+  }
+  .slideshowContainer{
+    height: 32vw;
+  }
+}
+
+@media (max-width: 576px){
+  .slideshowArrow{
+    display: none;
+  }
 }
 
 

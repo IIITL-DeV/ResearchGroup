@@ -10900,6 +10900,7 @@ margin-bottom: 0px !important;
 footer.nb-footer {
 background: lightgrey;
 border-top: 4px solid #052137;
+position: inherit;
 }
 footer.nb-footer .about {
 margin: 0 auto;

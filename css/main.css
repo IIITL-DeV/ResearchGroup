@@ -32,9 +32,9 @@
 *::after {
   box-sizing: border-box;
 }
-*+*{
+/* *+*{
   padding-top: 0;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -11082,11 +11082,14 @@ padding: 0;
 }
 
 
-.home-page-content > h2{
+.home-page-content > h1{
   font-family: 'Times New Roman', Times, serif;
-  font: 'Times New Roman';
 }
 
 .home-page-content > p{
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: rgb(65, 64, 64);
 }

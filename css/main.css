@@ -11170,3 +11170,35 @@ padding: 0;
   line-height: 1.7;
   color: rgb(65, 64, 64);
 }
+
+/* @media  screen and (max-width : 1200) { 
+  "width: 100% \9"
+  
+} */
+
+@media screen and (min-width : 1200px )
+{
+  .img-fluid{
+    width: auto;
+    height: 20px;
+    
+  }
+
+  .vks_desc>*
+  {
+    font-size: 2.5vh;
+  }
+
+  .vks_head>h3
+  {
+    font-size: 2.5vh;
+  }
+} 
+
+
+
+.img-fluid
+{
+  width: 100%;
+  height: auto;
+}

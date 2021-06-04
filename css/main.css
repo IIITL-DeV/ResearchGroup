@@ -2937,12 +2937,18 @@ textarea.form-control-lg {
   background-color: #0d6efd;
   border-color: #0d6efd;
   transform: rotate(0deg);
-  font-size: 2vh !important;
+  font-size: 2.3vh !important;
+  top: 1%;
+  left: 3%;
+  position: sticky;
+  z-index: 1000;
+  opacity: 0.4;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #0b5ed7;
   border-color: #0a58ca;
+  opacity: 0.8;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;

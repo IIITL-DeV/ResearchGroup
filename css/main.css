@@ -10836,6 +10836,8 @@ textarea.form-control-lg {
 /* ============= BOOTSTRAP ENDS HERE ============= */
 #wrapper {
   overflow-x: hidden;
+  overflow: hidden;
+  max-height : 100vh;
 }
 
 #sidebar-wrapper {
@@ -10855,6 +10857,9 @@ textarea.form-control-lg {
 
 #page-content-wrapper {
   min-width: 100vw;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {

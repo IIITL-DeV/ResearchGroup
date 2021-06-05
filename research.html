@@ -13,11 +13,16 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 
+
+
+
+
 <body>
   <!-- Top navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
     <div class="container-fluid" style="background-color: #052137; color: gray">
-      <img src="img/Final_Logo_IIITL.png" alt="" width="80" height="80" />
+      <a href="https://iiitl.ac.in/">
+        <img src="img/Final_Logo_IIITL.png" alt="" width="80" height="80" /></a>
       <h3>Data Analytics Research Lab</h3>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +31,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mt-2 mt-lg-0" style="color: white">
           <li class="nav-item active">
-            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="research.html">Research</a>
@@ -46,103 +51,123 @@
   <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
     <div class="border-end bg-white" id="sidebar-wrapper">
-      <div class="sidebar-heading border-bottom bg-light">
+      <div class="sidebar-heading border-bottom bg-light" id="sideresearch">
         RESEARCH
       </div>
       <div class="list-group list-group-flush">
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#!">Sensors and IoT Networks</a>
+            " href="#" id="sidesense">Sensors and IoT Networks</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#!">Artificial Intelligence and Machine Learning</a>
+            " href="#" id="sideaiml">Artificial Intelligence and Machine Learning</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#!">Automation Systems</a>
+            " href="#" id="sideauto">Automation Systems</a>
       </div>
     </div>
     <!-- Page content wrapper-->
     <div id="page-content-wrapper">
 
       <!-- Page content-->
-      <button class="btn btn-primary" id="sidebarToggle" style="top: 95%; left: 1%; position: fixed; z-index: 1000"
-        onclick="rotateBtn()">
+      <button class="btn btn-primary" id="sidebarToggle" onclick="rotateBtn()">
         <i class="fas fa-chevron-circle-right"></i>
       </button>
       <div class="container-fluid" style="position: relative">
-        <h1 class="mt-4">Simple Sidebar</h1>
-        <p>
-          The starting state of the menu will appear collapsed on smaller
-          screens, and will appear non-collapsed on larger screens. When
-          toggled using the button below, the menu will change.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
-        <p>
-          Make sure to keep all page content within the
-          <code>#page-content-wrapper</code>
-          . The top navbar is optional, and just for demonstration. Just
-          create an element with the
-          <code>#sidebarToggle</code>
-          ID which will toggle the menu when clicked.
-        </p>
+
+
+
+        <div class="main container-fluid" style="text-align: justify; padding: 2rem;" id="research">
+          <br>
+          <h1>Research</h1>
+          <p>
+            Research in the Data Analytics Group is focused on the discovery and application of new methodologies and
+            technologies for analytics and big data. Please visit the respective section to know more about the research
+            area, publication section and projects section for information regarding latest research papers and specific
+            projects ongoing with collaborations in this laboratory.
+          </p>
+          <ul class="practices">
+            <li class="frame3 " style="list-style: none; ">
+              <div class="box container-fluid text-center" style=" margin: 0; padding: 0.5rem;">
+                <a href="#" class="box"><img src="new_images/cllg5.jpg" 
+                    class="img-fluid img-thumbnail"></a>
+
+              </div>
+            </li>
+            <!--<li class="frame5">
+              <a href="post.html" class="box"><img src="images/divorce.jpg" height="198" width="265"><span>Divorce</span></a>
+            </li>-->
+          </ul>
+        </div>
+
+
+        <div class="main container-fluid" style="text-align: justify; padding: 2rem; display: none;" id="sensors">
+          <h1>Sensors and IoT Networks</h1>
+          <div class="box frame3 container-fluid"
+          >
+            <!-- <div class="box container-fluid"
+              > -->
+            <img src="new_images/sensor.jpeg" alt="Img" 
+              class="img-fluid img-thumbnail">
+            <!-- </div> -->
+          </div>
+          <p>
+            Mobile devices like smartphones, tablets, or smartwatches are a gateway to the Internet of Things. They help
+            us to seamlessly communicate with various other devices and systems, such as home automation, entertainment
+            systems, or car systems. The Data Analytics Research Group has profound experience with measurement and
+            analysis of sensor data like pressure, temperature and humidity, acceleration and positioning, heart rate
+            and heart rate variability.
+            We have extensively worked and published quality work addressing various problems such as, data gathering,
+            coverage, lifetime, load distribution, event detection, in-network inference, clustering, routing and many
+            more.
+
+          </p>
+        </div>
+
+
+
+        <div class="main container-fluid" style="text-align: justify; padding: 2rem; display: none;" id="aiml">
+          <h1>Artificial Intelligence and Machine Learning</h1>
+          <div class="frame3">
+            <div class="box container-fluid"
+            >
+              <img src="new_images/aiml.jpeg" alt="Img" 
+                class="img-fluid img-thumbnail">
+            </div>
+          </div>
+          <p>
+            Machine learning (ML) and Artificial Intelligence (AI) may arguably considered as the two of the most
+            revolutionary technologies of this century. The application of ML and AI has been significant in different
+            research domains and in industrial applications as well. The driving idea behind both the technologies being
+            the idea of modelling intelligent behaviour in machines.
+            The applications of AI and ML, as such, have been revolutionary in the context of Data analytics as well.
+            The past decade has witnessed the problem of data changing from collecting data to understanding it, making
+            inferences and strategic decisions.
+
+          </p>
+        </div>
+
+
+        <div class="main container-fluid allcontent seen" style="text-align: justify; padding: 2rem; display: none;"
+          id="auto">
+          <h1>Automation Systems</h1>
+          <div class="frame3">
+            <div class="box container-fluid"
+            >
+              <img src="new_images/auto.jpeg" alt="Img" 
+                class="img-fluid img-thumbnail">
+            </div>
+          </div>
+          <p>
+            Automation systems have played a vital role in conceptualising the ideas of smart city, smart homes, smart
+            transport and many more. The ease of use and automated processes not only enhance the user experience but
+            also are pivotal in streamlining the day to day working of the organizations.
+
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -152,81 +177,81 @@
   <hr class="hr-or" />
   <hr class="hr-or" />
   <footer class="nb-footer">
-     <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-info-single">
+            <h2 class="title">News</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" title="">
+                  News 1
+                </a>
+              </li>
+              <li>
+                <a href="#" title="">
+                  News 2
+                </a>
+              </li>
+              <li>
+                <a href="#" title="">
+                  News 3
+                </a>
+              </li>
+              <li>
+                <a href="#" title="">
+                  News 4
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="footer-info-single">
+            <h2 class="title">Contact Us</h2>
+            <ul class="list-unstyled">
+              <li>
+
+                ADDRESS: IIIT Lucknow, C.G. City,
+              </li>
+              <li>Ahmamau, Uttar
+                Pradesh, 226002
+              </li>
+              <li>
+                PHONE: (+91) 639 481 7065
+              </li>
+              <li>
+                EMAIL:
+                <a href="mailto:vks@iiitl.ac.in"> vks@iiitl.ac.in </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="footer-info-single">
+            <h2 class="title">MAP</h2>
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28489.823731818236!2d81.02403!3d26.800869000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34d9dd79cdeac7d8!2sIIIT%20Lucknow%20(Indian%20Institute%20of%20Information%20Technology)!5e0!3m2!1sen!2sin!4v1622746229041!5m2!1sen!2sin"
+                width="100" height="100" frameborder="0" style="border: 0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="copyright">
+      <div class="container">
         <div class="row">
-           <div class="col-md-4">
-              <div class="footer-info-single">
-                 <h2 class="title">News</h2>
-                 <ul class="list-unstyled">
-                    <li>
-                       <a href="#" title="">
-                          News 1
-                       </a>
-                    </li>
-                    <li>
-                       <a href="#" title="">
-                          News 2
-                       </a>
-                    </li>
-                    <li>
-                       <a href="#" title="">
-                          News 3
-                       </a>
-                    </li>
-                    <li>
-                       <a href="#" title="">
-                          News 4
-                       </a>
-                    </li>
-                 </ul>
-              </div>
-           </div>
-
-           <div class="col-md-4">
-              <div class="footer-info-single">
-                 <h2 class="title">Contact Us</h2>
-                 <ul class="list-unstyled">
-                    <li>
-
-                       ADDRESS: IIIT Lucknow, C.G. City,
-                    </li>
-                    <li>Ahmamau, Uttar
-                       Pradesh, 226002
-                    </li>
-                    <li>
-                       PHONE: (+91) 639 481 7065
-                    </li>
-                    <li>
-                       EMAIL:
-                       <a href="mailto:vks@iiitl.ac.in"> vks@iiitl.ac.in </a>
-                    </li>
-                 </ul>
-              </div>
-           </div>
-
-           <div class="col-md-4">
-              <div class="footer-info-single">
-                 <h2 class="title">MAP</h2>
-                 <div class="map-responsive">
-                    <iframe
-                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28489.823731818236!2d81.02403!3d26.800869000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34d9dd79cdeac7d8!2sIIIT%20Lucknow%20(Indian%20Institute%20of%20Information%20Technology)!5e0!3m2!1sen!2sin!4v1622746229041!5m2!1sen!2sin"
-                       width="100" height="100" frameborder="0" style="border: 0" allowfullscreen></iframe>
-                 </div>
-              </div>
-           </div>
+          <div class="col-sm-12 d-flex justify-content-center" style="background: #052137">
+            <p>© COPYRIGHT 2021 DATA ANALYTICS RESEARCH GROUP, IIIT LUCKNOW. ALL RIGHTS RESERVED.</p>
+          </div>
+          <div class="col-sm-6"></div>
         </div>
-     </div>
-
-     <section class="copyright">
-        <div class="container">
-           <div class="row">
-              <div class="col-sm-12 d-flex justify-content-center" style="background: #052137">
-                 <p>Copyright © 2017. Your Company.</p>
-              </div>
-              <div class="col-sm-6"></div>
-           </div>
-        </div>
-     </section>
+      </div>
+    </section>
   </footer>
   <!-- Footer Ends Here -->
 
@@ -235,6 +260,42 @@
   <script src="https://kit.fontawesome.com/70e4c7c6fa.js" crossorigin="anonymous"></script>
   <!-- Core theme JS-->
   <script src="js/main.js"></script>
+
+
+  <script>
+    document.getElementById('sidesense').addEventListener('click', function () {
+      // document.getElementById('sensors').style.display='block';
+      document.getElementById('aiml').style.display = 'none';
+      document.getElementById('research').style.display = 'none';
+      document.getElementById('auto').style.display = 'none';
+      document.getElementById('sensors').style.display = 'block';
+
+    })
+    document.getElementById('sideaiml').addEventListener('click', function () {
+      document.getElementById('aiml').style.display = 'block';
+      document.getElementById('research').style.display = 'none';
+      document.getElementById('auto').style.display = 'none';
+      document.getElementById('sensors').style.display = 'none';
+    })
+    document.getElementById('sideauto').addEventListener('click', function () {
+      document.getElementById('aiml').style.display = 'none';
+      document.getElementById('research').style.display = 'none';
+      document.getElementById('auto').style.display = 'block';
+      document.getElementById('sensors').style.display = 'none';
+
+    })
+
+
+    document.getElementById('sideresearch').addEventListener('click', function () {
+      document.getElementById('aiml').style.display = 'none';
+      document.getElementById('research').style.display = 'block';
+      document.getElementById('auto').style.display = 'none';
+      document.getElementById('sensors').style.display = 'none';
+
+    })
+  </script>
+
+
 </body>
 
 </html>

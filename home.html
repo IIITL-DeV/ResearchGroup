@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Group</title>
+  <title>Home</title>
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Core theme CSS (includes Bootstrap)-->
@@ -14,8 +14,9 @@
 </head>
 
 <body>
+  <!-- Top navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-    <div class="container-fluid" style="background-color: #052137; color: gray">
+    <div class="container-fluid" style="background-color: #052137; color: rgb(185, 184, 184);">
       <a href="https://iiitl.ac.in/">
         <img class="logo" src="img/Final_Logo_IIITL.png" alt="" width="80" height="80" /></a>
         <h3>Data Analytics Research Lab</h3>
@@ -43,70 +44,81 @@
       </div>
     </div>
   </nav>
+
   <div class="d-flex" id="wrapper">
+
+
     <!-- Sidebar-->
-    <div class="border-end bg-white" id="sidebar-wrapper">
+    <!-- <div class="border-end bg-white" id="sidebar-wrapper">
       <div class="sidebar-heading border-bottom bg-light">
-        TEAM
+        Start Bootstrap
       </div>
       <div class="list-group list-group-flush">
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="group.html">Dr. Vishal Krishna Singh</a>
+            " href="#!">Dashboard</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="former_members.html">Current Group members</a>
+            " href="#!">Shortcuts</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="research_scholar.html">Former members</a>
+            " href="#!">Overview</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="photo_gallery.html">Photo Gallery</a>
+            " href="#!">Events</a>
+        <a class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            " href="#!">Profile</a>
+        <a class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            " href="#!">Status</a>
       </div>
-    </div>
+    </div> -->
+
+
     <!-- Page content wrapper-->
     <div id="page-content-wrapper">
-      <!-- Top navigation-->
-
       <!-- Page content-->
-      <button class="btn btn-primary" id="sidebarToggle"
-      onclick="rotateBtn()">
-      <i class="fas fa-chevron-circle-right"></i>
-   </button>
-      <!--DR. VKS area Starts here-->
 
-      <div class="container" style="position: relative">
-        <h3 class="vks_head" style="margin-top: 2rem;"> Dr. Vishal Krishna Singh</h3>
-        <div class="row">
-          <div class=" col-lg-6 container-fluid vks_desc" style="margin-top: 2rem; text-align: justify;">
-            <p>
-              Dr. V K Singh received the bachelor’s degree in Information Technology, in 2010, the master’s degree in Computer Technology and Application from National Institute of Technical Teacher’s Training and Research, Bhopal, India in 2013, and PhD degree in Information Technology from Indian Institute of Information Technology, Allahabad, India in 2018.
-            </p>
-            <p style="margin-top: 2.5rem;">
-              During his PhD, he published several papers in International Journals of repute and presented many papers in International conferences. He is currently working as an Assistant Professor in the department of Computer Science, Indian Institute of Information Technology, Lucknow, India.
-            </p>
-            <p style="margin-top: 2.5rem;">
-              His research interests include compressed sensing, in-network inference, markov random field, wireless sensor networks, matrix completion algorithms, internet of things, machine learning and data analytics.
-            </p>
-          </div>
-          <div class=" col-lg-6" style="margin-top: 2rem;">
-            <img src="new_images/vks_565x776.jpeg" class="img-fluid" alt=""  style="width: 80%; height: auto;">
-          </div>
-        </div>
+      <!-- SIDEBAR BUTTON -->
+      <!-- <button class="btn btn-primary" id="sidebarToggle" style="top: 95%; left: 1%; position: fixed; z-index: 1000"
+        onclick="rotateBtn()">
+        <i class="fas fa-chevron-circle-right"></i>
+      </button> -->
+
+
+      <div class="container-fluid d-flex justify-content-center flex-column page-content-container" style="position: relative;">
+        <div class="slideshowContainer">
+          <br>
+           <img class="imageSlides" src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2270&q=80" width="90%" alt="beach side city view">
+           <img class="imageSlides" src="https://images.unsplash.com/photo-1506317876843-e7899f3c73a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2170&q=80" alt="leaf on the ground" width="90%">
+           <img class="imageSlides" src="https://images.unsplash.com/photo-1504372140281-47eb87fb8576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80" alt="lake surrounded by mountains" width="90%">
+   
+           <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+           <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+           
+           <div class="slideshowCircles">
+   
+             <span class="circle dot"></span>
+             <span class="circle"></span>
+             <span class="circle"></span>
+           </div>
+           
+         </div>
+
+         <div class="home-page-content">
+           <h1>Data Analytics Research Group</h1>
+           <p>
+            The Data Analytics Research Group, formed in 2021, is led by Dr. Vishal Krishna Singh. The group focuses on research in data analytics in smart systems, specially, Ad-Hoc Networks, Sensor Networks, Internet of Things, and Big Data Networking. We are a group of enthusiastic learners from diverse research background and specialization in different domains of analytics. We welcome learners and research enthusiasts from all over the world, to collaborate with us and contribute to the experience and perspectives of the group.
+           </p>
+         </div>
       </div>
-      <!-- Dr. VKS area ends here -->
-
-
-      
-
-      
-        
-
-
     </div>
   </div>
 

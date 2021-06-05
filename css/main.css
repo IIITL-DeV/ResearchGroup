@@ -264,6 +264,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  margin: 1.4rem;
 }
 
 table {
@@ -513,7 +514,7 @@ progress {
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-left:0;
   list-style: none;
 }
 
@@ -3842,7 +3843,9 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none;
 }
-
+nav>.navbar.container-fluid {
+  color: rgb(185, 185, 0);
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -4202,6 +4205,8 @@ textarea.form-control-lg {
 .navbar-light .navbar-toggler {
   color: rgba(255, 255, 255, 0);
   border-color: rgb(200, 200, 200);
+  margin: 0.3rem;
+  margin-bottom: 5px;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28250, 250, 250, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
@@ -10940,6 +10945,7 @@ border-color: #052137;
 }
 footer.nb-footer .footer-info-single {
 margin-top: 30px;
+margin-left: 1.2rem;
 }
 footer.nb-footer .footer-info-single .title {
 color: black;
@@ -11102,6 +11108,9 @@ padding: 0;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   z-index: -1;
+}
+.logo {
+  border-radius: 50%;
 }
 
 /* add 'visible' class via Javascript */

@@ -514,7 +514,7 @@ progress {
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-left:0;
   list-style: none;
 }
 
@@ -3843,7 +3843,9 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none;
 }
-
+nav>.navbar.container-fluid {
+  color: rgb(185, 185, 0);
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -10943,6 +10945,7 @@ border-color: #052137;
 }
 footer.nb-footer .footer-info-single {
 margin-top: 30px;
+margin-left: 1.2rem;
 }
 footer.nb-footer .footer-info-single .title {
 color: black;
@@ -11105,6 +11108,9 @@ padding: 0;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   z-index: -1;
+}
+.logo {
+  border-radius: 50%;
 }
 
 /* add 'visible' class via Javascript */

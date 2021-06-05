@@ -111,5 +111,5 @@ function slideshow() {
 }
 
 // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
-setTimeout(slideshow, 1000);
+setTimeout(slideshow, 0);
 var imageSlideshowInterval = setInterval(slideshow, 3500);

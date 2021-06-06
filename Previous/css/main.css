@@ -515,7 +515,10 @@ progress {
 
 .list-unstyled {
   padding-left:0;
-  list-style: none;
+  list-style: inside;
+}
+.list-unstyled a{
+  text-decoration: none;
 }
 
 .list-inline {
@@ -2941,8 +2944,9 @@ textarea.form-control-lg {
   border-color: #0d6efd;
   transform: rotate(0deg);
   font-size: 2.3vh !important;
-  top: 1%;
+  top: 3%;
   left: 3%;
+  margin-top: 2%;
   position: sticky;
   z-index: 1000;
   opacity: 0.4;
@@ -10839,11 +10843,11 @@ nav>.navbar.container-fluid {
   }
 }
 /* ============= BOOTSTRAP ENDS HERE ============= */
-#wrapper {
+/* #wrapper {
   overflow-x: hidden;
   overflow: hidden;
   max-height : 100vh;
-}
+} */
 
 #sidebar-wrapper {
   min-height: 100vh;
@@ -10860,12 +10864,12 @@ nav>.navbar.container-fluid {
   width: 15rem;
 }
 
-#page-content-wrapper {
+/* #page-content-wrapper {
   min-width: 100vw;
   overflow: hidden;
   overflow-y: scroll;
   height: 100vh;
-}
+} */
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
@@ -10958,9 +10962,10 @@ text-transform: uppercase;
 font-size: 16px;
 border-left: 4px solid #052137;
 padding-left: 5px;
+margin: 0em 0em 1em 1em;
 }
 footer.nb-footer .footer-info-single ul li a {
-display: block;
+/* display: block; */
 color: black;
 padding: 2px 0;
 }
@@ -10981,6 +10986,10 @@ color: #999;
 footer.nb-footer .copyright p {
 margin: 0;
 padding: 0;
+}
+footer .foot-address{
+  list-style: disc;
+  margin-left: 0.9em;
 }
 .map-responsive{
 

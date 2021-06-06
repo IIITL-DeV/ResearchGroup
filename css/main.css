@@ -2941,8 +2941,9 @@ textarea.form-control-lg {
   border-color: #0d6efd;
   transform: rotate(0deg);
   font-size: 2.3vh !important;
-  top: 1%;
+  top: 3%;
   left: 3%;
+  margin-top: 2%;
   position: sticky;
   z-index: 1000;
   opacity: 0.4;

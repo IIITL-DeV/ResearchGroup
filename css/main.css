@@ -517,6 +517,9 @@ progress {
   padding-left:0;
   list-style: inside;
 }
+.list-unstyled a{
+  text-decoration: none;
+}
 
 .list-inline {
   padding-left: 0;

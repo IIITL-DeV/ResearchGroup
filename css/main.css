@@ -10839,11 +10839,11 @@ nav>.navbar.container-fluid {
   }
 }
 /* ============= BOOTSTRAP ENDS HERE ============= */
-#wrapper {
+/* #wrapper {
   overflow-x: hidden;
   overflow: hidden;
   max-height : 100vh;
-}
+} */
 
 #sidebar-wrapper {
   min-height: 100vh;
@@ -10860,12 +10860,12 @@ nav>.navbar.container-fluid {
   width: 15rem;
 }
 
-#page-content-wrapper {
+/* #page-content-wrapper {
   min-width: 100vw;
   overflow: hidden;
   overflow-y: scroll;
   height: 100vh;
-}
+} */
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;

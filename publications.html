@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 
-<body>
+<body onload="yr2020()">
   <!-- Top navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
     <div class="container-fluid" style="background-color: #052137; color: gray">
@@ -54,31 +54,31 @@
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2020">2020</a>
+            " href="#2020" id="yr2020">2020</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2019">2019</a>
+            " href="#2019" id="yr2019">2019</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2018">2018</a>
+            " href="#2018" id="yr2018">2018</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2017">2017</a>
+            " href="#2017" id="yr2017">2017</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2016">2016</a>
+            " href="#2016" id="yr2016">2016</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2015">2015</a>
+            " href="#2015" id="yr2015">2015</a>
         <a class="
               list-group-item list-group-item-action list-group-item-light
               p-3
-            " href="#2014">2014</a>
+            " href="#2014" id="yr2014">2014</a>
       </div>
     </div>
     <!-- Page content wrapper-->
@@ -119,7 +119,8 @@
                 Systems Journal, doi: 10.1109/JSYST.2020.2967838."</li>
 
             </section>
-            <br>
+
+
 
             <section id=2019>
 
@@ -137,7 +138,9 @@
                 Springer Publications</li>
 
             </section>
-            <br>
+
+
+
             <section id=2018>
 
               <h3>2018</h3>
@@ -152,7 +155,9 @@
                 3,pp.174–189. (SCI) (Impact Factor- 0.454), Inder Science Publishers</li>
 
             </section>
-            <br>
+
+
+
             <section id=2017>
 
               <h3>2017</h3>
@@ -210,7 +215,9 @@
                 Technologies, ANT-2017</li>
 
             </section>
-            <br>
+
+
+
             <section id=2016>
 
               <h3>2016</h3>
@@ -226,7 +233,9 @@
                 (FNC-2016), 2016, in Montreal, Quebec, Canada</li>
 
             </section>
-            <br>
+
+
+
             <section id="2015">
 
               <h3>2015</h3>
@@ -236,7 +245,9 @@
                 (UPCON), 2015 IEEE UP Section Conference on, pp. 1-5. IEEE, 2015.</li>
 
             </section>
-            <br>
+
+
+
             <section id="2014">
 
               <h3>2014</h3>
@@ -247,6 +258,7 @@
                 823-827). IEEE</li>
 
             </section>
+
           </ul>
 
         </div>
@@ -377,13 +389,14 @@
           <div class="footer-info-single">
             <h2 class="title">Contact Us</h2>
             <ul class="list-unstyled">
-              <li class="foot-address" >
-                <div style="display: inline-flex;"><span>ADDRESS:&nbsp; </span> <div> IIIT Lucknow, C.G. City,
-              Ahmamau, Uttar
-                Pradesh, 226002</div>
+              <li class="foot-address">
+                <div style="display: inline-flex;"><span>ADDRESS:&nbsp; </span>
+                  <div> IIIT Lucknow, C.G. City,
+                    Ahmamau, Uttar
+                    Pradesh, 226002</div>
                 </div>
               </li>
-            
+
               <li>
                 PHONE: (+91) 639 481 7065
               </li>
@@ -428,5 +441,123 @@
   <script src="js/main.js"></script>
 
 </body>
+<script>
+
+  function fn2020() {
+    document.getElementById('2020').style.display = 'block';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+  }
+  document.getElementById('yr2020').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'block';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2019').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'block';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2018').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'block';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2017').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'block';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2016').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'block';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2015').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'block';
+    document.getElementById('2014').style.display = 'none';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+  document.getElementById('yr2014').addEventListener('click', function () {
+    // document.getElementById('sensors').style.display='block';
+    document.getElementById('2020').style.display = 'none';
+    document.getElementById('2019').style.display = 'none';
+    document.getElementById('2018').style.display = 'none';
+    document.getElementById('2017').style.display = 'none';
+    document.getElementById('2016').style.display = 'none';
+    document.getElementById('2015').style.display = 'none';
+    document.getElementById('2014').style.display = 'block';
+     event.preventDefault();
+    document.body.classList.toggle("sb-sidenav-toggled");
+    localStorage.setItem(
+      "sb|sidebar-toggle",
+      document.body.classList.contains("sb-sidenav-toggled"));
+  })
+</script>
+
 
 </html>

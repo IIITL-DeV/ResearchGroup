@@ -10,6 +10,9 @@
 }
 
 .u-section-1 .u-text-2 {
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-decoration: none solid rgb(255, 255, 255);
   margin: 10px 0 0;
 }
 
@@ -30,10 +33,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-text-2 {
-    font-weight: bold;
-  }
-
   .u-section-1 .u-list-1 {
     margin-right: initial;
     margin-left: initial;

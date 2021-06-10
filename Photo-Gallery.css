@@ -9,7 +9,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 339px;
-  background-image: url("images/_DSC0711.jpg");
+  background-image: url("images/DSC0711.jpg");
   background-position: 50% 50%;
 }
 
@@ -19,8 +19,8 @@
 
 .u-section-1 .u-image-2 {
   min-height: 339px;
-  background-image: url("images/_DSC0637.jpg");
-  background-position: 11.16% 55.24%;
+  background-image: url("images/DSC063711.jpg");
+  background-position: 50% 50%;
   background-size: auto 125%;
 }
 
@@ -30,8 +30,8 @@
 
 .u-section-1 .u-image-3 {
   min-height: 339px;
-  background-image: url("images/_DSC0017.jpg");
-  background-position: 100% 72.83%;
+  background-image: url("images/DSC0017.jpg");
+  background-position: 50% 55.33%;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -40,8 +40,8 @@
 
 .u-section-1 .u-image-4 {
   min-height: 678px;
-  background-image: url("images/_DSC0061.jpg");
-  background-position: 50.9% 50%;
+  background-image: url("images/DSC0061.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -149,7 +149,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 100px;
+    min-height: 161px;
   }
 
   .u-section-1 .u-image-2 {
@@ -175,8 +175,8 @@
 
 .u-section-2 .u-image-1 {
   min-height: 678px;
-  background-image: url("images/main-qimg-efc60ddc93c5e160754388b3d4454330.jpeg");
-  background-position: 20.66% 100%;
+  background-image: url("images/main-qimg-efc60ddc93c5e160754388b3d44543301.jpeg");
+  background-position: 25.45% 50%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -185,8 +185,8 @@
 
 .u-section-2 .u-image-2 {
   min-height: 376px;
-  background-image: url("images/_DSC0065.jpg");
-  background-position: 46.72% 23.41%;
+  background-image: url("images/DSC0065.jpg");
+  background-position: 46.81% 26.6%;
   background-size: 125%;
 }
 
@@ -196,7 +196,7 @@
 
 .u-section-2 .u-image-3 {
   min-height: 302px;
-  background-image: url("images/cllg6.jpg");
+  background-image: url("images/cllg61.jpg");
   background-position: 50% 50%;
 }
 
@@ -221,7 +221,6 @@
   }
 
   .u-section-2 .u-image-2 {
-    background-position: 50% 50%;
     min-height: 310px;
   }
 
@@ -324,8 +323,9 @@
 
 .u-section-3 .u-image-1 {
   min-height: 339px;
-  background-image: url("images/_DSC0735.jpg");
+  background-image: url("images/DSC0735.jpg");
   background-position: 0% 50%;
+  background-size: auto 120%;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -334,8 +334,9 @@
 
 .u-section-3 .u-image-2 {
   min-height: 339px;
-  background-image: url("images/DSC_0429.jpg");
-  background-position: 43.76% 50%;
+  background-image: url("images/DSC_04291.jpg");
+  background-position: 50.42% 43.44%;
+  background-size: auto 120%;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -354,8 +355,8 @@
 
 .u-section-3 .u-image-4 {
   min-height: 678px;
-  background-image: url("images/_DSC0143.jpg");
-  background-position: 69.16% 16.37%;
+  background-image: url("images/DSC0143.jpg");
+  background-position: 54.79% 67.28%;
   background-size: 115%;
 }
 
@@ -420,6 +421,7 @@
 
   .u-section-3 .u-image-1 {
     min-height: 371px;
+    background-size: auto 130%;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -495,8 +497,8 @@
 
 .u-section-4 .u-image-1 {
   min-height: 678px;
-  background-image: url("images/_DSC0728.jpg");
-  background-position: 19.08% 100%;
+  background-image: url("images/DSC0728.jpg");
+  background-position: 19.62% 54.92%;
   background-size: auto 110%;
 }
 
@@ -506,8 +508,8 @@
 
 .u-section-4 .u-image-2 {
   min-height: 376px;
-  background-image: url("images/_DSC0721.jpg");
-  background-position: 42.93% 47.48%;
+  background-image: url("images/DSC0721.jpg");
+  background-position: 43.86% 49.71%;
   background-size: 165%;
 }
 
@@ -517,8 +519,8 @@
 
 .u-section-4 .u-image-3 {
   min-height: 302px;
-  background-image: url("images/DSC_0671.jpg");
-  background-position: 50% 53.29%;
+  background-image: url("images/DSC_06711.jpg");
+  background-position: 50% 53.43%;
 }
 
 .u-section-4 .u-container-layout-3 {

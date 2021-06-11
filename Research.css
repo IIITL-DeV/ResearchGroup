@@ -31,8 +31,9 @@
 .u-section-1 .u-image-1 {
   min-height: 619px;
   pointer-events: auto;
-  background-image: url("images/_DSC07091.jpg");
-  background-position: 50% 50%;
+  background-image: url("images/DSC070911.jpg");
+  background-position: 47.72% 69.3%;
+  background-size: auto 115%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -143,8 +144,9 @@
 
 .u-section-2 .u-image-1 {
   min-height: 572px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/_DSC063711.jpg");
-  background-position: 50% 50%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/DSC0637112.jpg");
+  background-position: 49.7% 100%;
+  background-size: auto 110%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -166,6 +168,7 @@
 .u-section-2 .u-text-2 {
   margin-left: 25px;
   margin-right: 0;
+  margin-top: 20px;
 }
 
 @media (max-width: 1199px) {
@@ -413,6 +416,7 @@
 .u-section-4 .u-text-2 {
   margin-left: 25px;
   margin-right: 0;
+  margin-top: 20px;
 }
 
 @media (max-width: 1199px) {

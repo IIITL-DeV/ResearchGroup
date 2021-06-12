@@ -40572,3 +40572,68 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+
+
+
+ /* to remove Border in dropdown mobile view side bar */
+ .u-nav-popup.open ul{
+   border:none;
+ }
+/*
+ can change the style of elements inside dropdown !
+ .u-nav-popup.open ul li{
+  color: #ccdcff;
+} */
+
+ /* FOOTER CSS FOR MOBILE VIEW */
+
+footer .u-gutter-0.u-layout {
+  width: 100%;
+}
+footer .u-container-layout.u-container-layout-1{
+  display: flex;
+}
+
+
+footer .u-align-center.u-small-text.u-text.u-text-body-alt-color.u-text-variant.u-text-6{
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+footer .u-container-layout.u-valign-middle-xs.u-container-layout-3{
+  height: 5.2em;
+}
+
+
+
+/* NAVBAR PADDING */
+
+.u-custom-menu.u-nav-container ul li a {
+  padding: 10px 5px !important;
+}
+.u-custom-menu.u-nav-container ul li .u-nav-popup a {
+  /* padding: 10px 5px !important; */
+  padding: 0.8em !important;
+}
+.u-custom-menu.u-nav-container ul li .u-nav-popup {
+  /* padding: 10px 5px !important; */
+  padding: 0.1em;
+  transform: translateX(-0.4em);
+}
+.dropdown-icon{
+  font-size: 0.8em;
+}
+
+
+.u-border-1.u-border-grey-75.u-h-spacing-10.u-nav.u-unstyled {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 3px solid black;
+}
+
+/* header{
+  transform: scaleY(0.9);
+  transform: translateY(-1em);
+  height: 8.5em;
+
+} */

@@ -40116,6 +40116,10 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -67px 0 0 auto;
 }
 
+.u-header .u-nav-1 {
+  font-weight: 400;
+}
+
 .u-header .u-nav-2 {
   background-image: none;
 }

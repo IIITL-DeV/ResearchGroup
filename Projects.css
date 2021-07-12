@@ -9,6 +9,11 @@
 
 .u-section-1 .u-image-1 {
   min-height: 752px;
+  background-image: url("images/Screenshot2021-07-12at1.30.01PM.png");
+  background-position: 50% 0%;
+}
+.u-section-2 .u-image-2 {
+  min-height: 752px;
   background-image: url("images/Screenshot2021-06-07at4.53.54PM.png");
   background-position: 50% 0%;
 }

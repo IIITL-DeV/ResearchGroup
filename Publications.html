@@ -30,7 +30,28 @@
   <meta name="theme-color" content="#6647c9">
 </head>
 
-<body class="u-body">
+<body class="u-body" onload="loadfun()">
+    <!-- LOADING SCREEN -->
+    <div id="loading">
+      <div id="load">
+        <div>G</div>
+        <div>N</div>
+        <div>I</div>
+        <div>D</div>
+        <div>A</div>
+        <div>O</div>
+        <div>L</div>
+      </div>
+    </div>
+
+    <script>
+      var load = document.getElementById("loading");
+      function loadfun(){
+        load.style.display = 'none';
+      }
+    </script>
+
+
   <header class="u-align-center u-clearfix u-custom-color-6 u-header u-sticky u-header" id="sec-54c4">
     <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
       <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="323"

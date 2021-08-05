@@ -30,7 +30,35 @@
   <meta name="theme-color" content="#6647c9">
 </head>
 
-<body class="u-body">
+<body class="u-body" onload="loadfun()">
+  <!-- LOADING SCREEN -->
+  <div id="loading">
+    <div class="peeek-loading">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <script>
+    var load = document.getElementById("loading");
+    window.onload = loadfun();
+
+    function loadfun() {
+      load.style.display = 'none';
+      console.log("hogaya")
+    }
+  </script>
   <header class="u-align-center u-clearfix u-custom-color-6 u-header u-sticky u-header" id="sec-54c4">
     <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
       <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="323"
@@ -149,7 +177,7 @@
       </nav>
       <h3
         class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xs u-custom-font u-font-ubuntu u-headline u-text u-text-default-xl u-text-palette-5-light-1 u-text-1">
-        <a href="/">Data Analytics Research Lab</a>
+        <a href="/index.html">Data Analytics Research Lab</a>
       </h3>
     </div>
   </header>

@@ -41,7 +41,8 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(undefined, NaN%);
   }
-}
+
+}}
 
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
@@ -255,7 +256,7 @@
 .u-section-3 .u-image-1 {
   width: 194px;
   height: 194px;
-  background-image: url("images/teampg.jpg");
+  background-image: url("images/sumita.jpeg");
   background-position: 50% 50%;
   margin: 0 auto;
 }

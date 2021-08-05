@@ -31,7 +31,15 @@
   <meta name="theme-color" content="#6647c9" />
 </head>
 
-<body class="u-body">
+<body class="u-body" onload="loadfun()">
+    <!-- LOADING SCREEN -->
+    <div id="loading"></div>
+    <script>
+      var load = document.getElementById("loading");
+      function loadfun(){
+        load.style.display = 'none';
+      }
+    </script>
   <header class="
         u-align-center u-clearfix u-custom-color-6 u-header u-sticky u-header
       " id="sec-54c4">

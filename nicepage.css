@@ -40581,6 +40581,7 @@ a.u-link.u-text-hover-grey-90:hover {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #fff;
+  background: red;
   z-index: 99999;
+  opacity: 0.5;
 }

@@ -20,9 +20,6 @@
     href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
 
 
-
-
-
   <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -33,7 +30,13 @@
   <meta name="theme-color" content="#6647c9">
 </head>
 
-<body class="u-body">
+<body class="u-body" >
+  <!-- LOADING SCREEN -->
+  <div id="loading">
+
+  </div>
+
+
   <header class="u-align-center u-clearfix u-custom-color-6 u-header u-sticky u-header" id="sec-54c4">
     <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
       <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="323"
@@ -444,6 +447,15 @@
       </div>
     </div>
   </footer>
+  <script>
+    var load = document.getElementById("loading");
+    window.onload = loadfun();
+
+    function loadfun() {
+      load.style.display = 'none';
+      console.log("hogaya")
+    }
+  </script>
 </body>
 
 </html>

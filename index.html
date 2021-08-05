@@ -34,25 +34,31 @@
 
 <body data-home-page="Home.html" data-home-page-title="Home" class="u-body" onload="loadfun()"> 
   <!-- LOADING SCREEN -->
-  <body class="u-body" onload="loadfun()">
-    <!-- LOADING SCREEN -->
-    <div id="loading">
-      <div id="load">
-        <div>G</div>
-        <div>N</div>
-        <div>I</div>
-        <div>D</div>
-        <div>A</div>
-        <div>O</div>
-        <div>L</div>
-      </div>
+  <div id="loading">
+    <div class="peeek-loading">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
-
     
+  </div>
+
   <script>
     var load = document.getElementById("loading");
-    function loadfun(){
+    window.onload = loadfun();
+
+    function loadfun() {
       load.style.display = 'none';
+      console.log("hogaya")
     }
   </script>
 

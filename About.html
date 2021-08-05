@@ -32,26 +32,34 @@
 </head>
 
 <body class="u-body" onload="loadfun()">
-    <!-- LOADING SCREEN -->
-    <div id="loading">
-      <div id="load">
-        <div>G</div>
-        <div>N</div>
-        <div>I</div>
-        <div>D</div>
-        <div>A</div>
-        <div>O</div>
-        <div>L</div>
-      </div>
+  <!-- LOADING SCREEN -->
+  <div id="loading">
+    <div class="peeek-loading">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
-
     
-    <script>
-      var load = document.getElementById("loading");
-      function loadfun(){
-        load.style.display = 'none';
-      }
-    </script>
+  </div>
+
+  <script>
+    var load = document.getElementById("loading");
+    window.onload = loadfun();
+
+    function loadfun() {
+      load.style.display = 'none';
+      console.log("hogaya")
+    }
+  </script>
   <header class="
         u-align-center u-clearfix u-custom-color-6 u-header u-sticky u-header
       " id="sec-54c4">

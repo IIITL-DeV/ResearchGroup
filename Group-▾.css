@@ -17,7 +17,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 20px 0 0 9px;
+  margin: 0 0 0 9px;
 }
 
 .u-section-1 .u-text-2 {
@@ -30,12 +30,11 @@
   min-height: 16px;
   width: 116px;
   min-width: 68px;
-  margin: 37px auto 0 176px;
+  margin: 46px auto 0 176px;
 }
 
 .u-section-1 .u-icon-1 {
   height: 100%;
-  color: rgb(0, 0, 0) !important;
 }
 
 .u-section-1 .u-icon-2 {
@@ -44,13 +43,13 @@
 
 .u-section-1 .u-icon-3 {
   height: 100%;
-  color: rgb(0, 0, 0) !important;
 }
 
 .u-section-1 .u-image-1 {
   min-height: 590px;
   pointer-events: auto;
   background-image: url("images/vks.jpeg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -85,7 +84,6 @@
 
   .u-section-1 .u-image-1 {
     min-height: 486px;
-    background-position: 50% 50%;
   }
 }
 

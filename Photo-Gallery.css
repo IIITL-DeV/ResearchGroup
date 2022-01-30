@@ -19,8 +19,8 @@
 
 .u-section-1 .u-image-2 {
   min-height: 339px;
-  background-image: url("images/DSC063711.jpg");
-  background-position: 50% 50%;
+  background-image: url("images/DSC0637.jpg");
+  background-position: 11.16% 55.24%;
   background-size: auto 125%;
 }
 
@@ -31,7 +31,7 @@
 .u-section-1 .u-image-3 {
   min-height: 339px;
   background-image: url("images/DSC0017.jpg");
-  background-position: 50% 55.33%;
+  background-position: 100% 72.83%;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -41,7 +41,7 @@
 .u-section-1 .u-image-4 {
   min-height: 678px;
   background-image: url("images/DSC0061.jpg");
-  background-position: 50% 50%;
+  background-position: 50.9% 50%;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -149,7 +149,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    min-height: 161px;
+    min-height: 100px;
   }
 
   .u-section-1 .u-image-2 {
@@ -164,19 +164,19 @@
     min-height: 506px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 728px;
+  min-height: 738px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   margin-left: auto;
 }
 
 .u-section-2 .u-image-1 {
   min-height: 678px;
-  background-image: url("images/main-qimg-efc60ddc93c5e160754388b3d44543301.jpeg");
-  background-position: 25.45% 50%;
+  background-image: url("images/main-qimg-efc60ddc93c5e160754388b3d4454330.jpeg");
+  background-position: 20.66% 100%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -186,7 +186,7 @@
 .u-section-2 .u-image-2 {
   min-height: 376px;
   background-image: url("images/DSC0065.jpg");
-  background-position: 46.81% 26.6%;
+  background-position: 46.72% 23.41%;
   background-size: 125%;
 }
 
@@ -196,7 +196,7 @@
 
 .u-section-2 .u-image-3 {
   min-height: 302px;
-  background-image: url("images/cllg61.jpg");
+  background-image: url("images/cllg6.jpg");
   background-position: 50% 50%;
 }
 
@@ -221,6 +221,7 @@
   }
 
   .u-section-2 .u-image-2 {
+    background-position: 50% 50%;
     min-height: 310px;
   }
 
@@ -314,18 +315,17 @@
     min-height: 169px;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 669px;
+  min-height: 718px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin: 1px 0 10px;
+  margin: 1px 0 59px;
 }
 
 .u-section-3 .u-image-1 {
   min-height: 339px;
   background-image: url("images/DSC0735.jpg");
   background-position: 0% 50%;
-  background-size: auto 120%;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -334,9 +334,8 @@
 
 .u-section-3 .u-image-2 {
   min-height: 339px;
-  background-image: url("images/DSC_04291.jpg");
-  background-position: 50.42% 43.44%;
-  background-size: auto 120%;
+  background-image: url("images/DSC_0429.jpg");
+  background-position: 43.76% 50%;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -356,7 +355,7 @@
 .u-section-3 .u-image-4 {
   min-height: 678px;
   background-image: url("images/DSC0143.jpg");
-  background-position: 54.79% 67.28%;
+  background-position: 69.16% 16.37%;
   background-size: 115%;
 }
 
@@ -421,7 +420,6 @@
 
   .u-section-3 .u-image-1 {
     min-height: 371px;
-    background-size: auto 130%;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -486,19 +484,19 @@
     background-size: auto 115%;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 723px;
+  min-height: 698px;
 }
 
 .u-section-4 .u-layout-wrap-1 {
   margin-top: 20px;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   margin-left: auto;
 }
 
 .u-section-4 .u-image-1 {
   min-height: 678px;
   background-image: url("images/DSC0728.jpg");
-  background-position: 19.62% 54.92%;
+  background-position: 19.08% 100%;
   background-size: auto 110%;
 }
 
@@ -509,8 +507,8 @@
 .u-section-4 .u-image-2 {
   min-height: 376px;
   background-image: url("images/DSC0721.jpg");
-  background-position: 43.86% 49.71%;
-  background-size: 165%;
+  background-position: 36.86% 52.1%;
+  background-size: 125%;
 }
 
 .u-section-4 .u-container-layout-2 {
@@ -519,8 +517,8 @@
 
 .u-section-4 .u-image-3 {
   min-height: 302px;
-  background-image: url("images/DSC_06711.jpg");
-  background-position: 50% 53.43%;
+  background-image: url("images/DSC0684.jpg");
+  background-position: 100% 95.66%;
 }
 
 .u-section-4 .u-container-layout-3 {
@@ -552,7 +550,7 @@
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1829px;
+    min-height: 1804px;
   }
 
   .u-section-4 .u-image-1 {
@@ -589,9 +587,8 @@
   }
 
   .u-section-4 .u-image-2 {
-    background-position: 46.63% 55.61%;
     min-height: 594px;
-    background-size: auto 105%;
+    background-size: auto 125%;
   }
 
   .u-section-4 .u-container-layout-2 {
